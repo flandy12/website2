@@ -109,17 +109,6 @@
     color: rgb(255, 255, 255);
 }
 
-hr {
-    background-color: aliceblue;
-}
-
-select{
-    background-image: linear-gradient(rgb(55, 0, 255),rgb(6, 181, 235));
-    color: wheat;
-    border: none;
-    padding: 2% 4% 2% 4%;
-}
-
 .four-text-head-footer {
     font-size: 18px;
     text-align: center;
@@ -223,11 +212,29 @@ footer {
 }
 
 .and2 {
-
-
     color: white;
 }
 
 .bg-and-footer a {
     color: white;
+}
+hr {
+    background-color: aliceblue;
+}
+
+select{
+    background-image: linear-gradient(to left,rgb(55, 0, 255),rgb(234, 5, 255));
+    color: white;
+    border: none;
+    padding: 2% 4% 2% 4%;
+}
+select:focus{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.submit-place{
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 2px;
 }
