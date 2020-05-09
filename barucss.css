@@ -1,0 +1,221 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.bg {
+    font-family: 'Merriweather', serif;
+    padding: 5% 0% 5% 0%;
+    margin: auto;
+    color: antiquewhite;
+    background-color: rgb(12, 12, 39);
+}
+
+.bg-and {
+    background-color: rgb(235, 233, 233);
+}
+
+.hero-first {
+    color: white;
+    width: 100%;
+    padding: 60px 0 104px 0;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('carlos.jpg')
+}
+
+.hero-title .text-1 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero-title .text-1-2 {
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-1 {
+    margin-bottom: 3%;
+    color: aliceblue;
+    background-color: rgba(183, 0, 255, 0.822);
+    border: none;
+    display: inline-block;
+    position: relative;
+    padding: 2% 3% 2% 3%;
+    border-radius: 0%;
+}
+
+.btn-1:hover {
+    color: rgb(253, 245, 245);
+    background-color: rgb(114, 91, 241);
+}
+
+.hero-title .text-1-3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.jumbotron-2 {
+    padding: 3rem 1rem;
+
+}
+
+.hero-two {
+    background-color: transparent;
+}
+
+.hero-two .text-2 {
+    margin: auto;
+}
+
+.jumbotron-3 {
+    padding: 2rem;
+    color: aliceblue;
+    background-color: rgb(0, 0, 255);
+}
+
+.hero-three {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text-all-there {
+    display: block;
+    margin-bottom: 2%;
+
+}
+
+.text-3-1 {
+    text-align: center;
+}
+
+.text-3-2 {
+    text-align: center;
+}
+
+.four-text-head {
+    font-size: 34px;
+    text-align: center;
+    padding: 0 0 2px 0;
+    color: rgb(255, 255, 255);
+}
+hr{
+    background-color: aliceblue;
+}
+.four-text-head-footer {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 0 2% 0;
+    color: rgb(255, 255, 255);
+}
+
+.stand {
+    width: 100%;
+    margin-right: auto;
+    margin-left: -30px;
+    background-size: cover;
+    background-image: url("/br.jpg");
+}
+
+.baris {
+    background-image: linear-gradient(rgba(183, 0, 255, 0.822), rgb(37, 0, 248));
+    color: white;
+    padding: 3%;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 0px 0px 0px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 25px 50px -12px rgba(3, 0, 3, 0.596);
+}
+
+.baris .text-4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.foto2 {
+    margin-left: 85%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.card-all {
+    color: black;
+}
+
+
+
+.card-img-top {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.card-img-top:hover {
+    opacity: 0;
+}
+
+.hero-five-form {
+    margin: 5% 0 5% 0;
+    border-radius: 10px;
+    background-color: rgb(37, 0, 248);
+    padding: 2% 0 2% 0;
+    display: block;
+    color: white;
+    -webkit-box-shadow: 3px 0px 0px 0px #ccc;
+    /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    /* Firefox 3.5 - 3.6 */
+    box-shadow: 0 25px 50px -12px rgba(3, 0, 3, 0.596);
+}
+
+.hero-five-form h1 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.form-check {
+    margin-bottom: 3%;
+}
+
+.hero-five {
+
+    padding: 5% 0 5% 0;
+}
+
+.hero-five-text {
+    justify-content: center;
+    text-align: center;
+}
+.btn-login{
+    padding: 3% 5% 3% 5% ;
+    border-radius: 5px;
+    border: none;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 153, 255, 0.993);
+}
+footer{
+    padding: 5%;
+    background-color: black;
+}
+.and2{
+    
+  
+    color: white;
+}
+
+.bg-and-footer a{
+    color: white;
+}
