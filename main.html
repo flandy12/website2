@@ -6,14 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="barucss.css">
     <link rel="stylesheet" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,900&display=swap"
         rel="stylesheet">
-    <link href="https://icons8.com" rel="stylesheet">
-
-
-
     <title>Hello, world!</title>
 </head>
 
@@ -140,7 +135,7 @@
     </section>
     <!-- Hero Three Jumbotron full text and Card-->
     <section>
-        <div class="jumbotron-3">
+        <div class="jumbotron">
             <div class="container">
                 <!--Text-->
                 <div class="text-all-there">
@@ -152,46 +147,44 @@
             </div>
             <!--Card All-->
             <div class="container">
-                <div class="card-all">
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="br.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.ascbasycbasyucgasyucasbcyiasbcysabcyascbasucvsauicbai</p>
-
-                            </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                      <div class="card h-100 item-card">
+                        <img src="br-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="card">
-                            <img src="br-2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional content.</p>
-
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="br-3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This card has even longer content than the first to
-                                    show that equal height action.</p>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </div>
+                    <div class="col-md-4 mb-4">
+                      <div class="card h-100 item-card">
+                        <img src="br.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a short card.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 item-card">
+                          <img src="br.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
             </div>
+                
         </div>
     </section>
     <!-- Hero four Text Full-->
     <section>
         <div class="bg">
             <div class="container">
-                <h1 class="four-text-head">Hallo Welcome In My Website</h1>
+                <h1 class="four-text-head" id="hallo">Hallo Welcome In My Website</h1>
                 <p class="four-text-head-footer"> Exhibition idea does not attempt to represent an accurate depiction of
                     a visual reality </p>
             </div>
@@ -253,18 +246,15 @@
         <div class="container-fluid bg-and">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-5 md-10 hero-five-form">
-                        <form onsubmit="return waktu()" class="">
-                            <Fieldset>
+                    <div class="col-sm-12 hero-five-form">
+                        <form onsubmit="return waktu()">
                             <legend>LOGIN</legend>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter email">
-
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone else.</small>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
@@ -277,7 +267,6 @@
                             </div>
                             <button class="btn-login" type="submit">Button</button>
                         </form>
-                    </Fieldset>
                     </div>
                 </div>
             </div>
@@ -329,13 +318,13 @@
                         <h6>Place</h6>
                         <div class="row">
                             <div class="col">
-                                <select>
-                                    <option value="Indonesia">Indonesia</option>
+                                <select id="bahasa">
+                                    <option value="Indonesia" selected>Indonesia</option>
                                     <option value="Inggris">Inggris</option>
+                                    <option value="Japang">Jepang</option>
                                 </select>
-                                <input type="submit" class="submit-place">
+                                <input type="submit" class="submit-place" id="Submit-Bahasa">
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -345,6 +334,15 @@
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
     <Script type="text/javascript" src="/falidasi.js"></Script>
 </body>
 
